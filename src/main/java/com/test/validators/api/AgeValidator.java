@@ -1,8 +1,8 @@
 package com.test.validators.api;
 
+import com.avis.reporting.assertions.CustomAssert;
 import com.test.apiRequestBuilder.agePredictor.AgePredictor;
 import com.test.exceptions.AgePredictorException;
-import com.test.validators.assertions.CustomAssert;
 
 public class AgeValidator {
     private static volatile AgeValidator instance;

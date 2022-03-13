@@ -1,0 +1,42 @@
+[
+  {
+    "name": "himanshu",
+    "testMeta": {
+      "testDescription":"Validate age of name :himanshu",
+      "expectedAge": 31,
+      "expectedStatusCode":200
+    },
+    "uniqueTrackingId": "JIRA_1",
+    "active_test": "true"
+  },
+  {
+    "name": "claudio",
+    "testMeta": {
+      "testDescription":"Validate age of name :claudio",
+      "expectedAge": 55,
+      "expectedStatusCode":200
+    },
+    "uniqueTrackingId": "JIRA_2",
+    "active_test": "true"
+  },
+  {
+    "name": "dua",
+    "testMeta": {
+      "testDescription": "Validate age of name :dua",
+      "expectedAge": 64,
+      "expectedStatusCode":200
+    },
+    "uniqueTrackingId": "JIRA_3",
+    "active_test": "false"
+  },
+  {
+    "name": "john",
+    "testMeta": {
+      "testDescription":"Validate age of name :john",
+      "expectedAge": 57,
+      "expectedStatusCode":200
+    },
+    "uniqueTrackingId": "JIRA_4",
+    "active_test": "true"
+  }
+]

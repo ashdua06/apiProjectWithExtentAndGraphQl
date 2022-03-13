@@ -15,12 +15,9 @@ import java.util.Map;
 @NoArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class GetAgeRequestPojo implements APIInterface.RequestPojo {
-    private String name;
-    @JsonProperty("uniqueTrackingId")
-    private String jiraId;
-    private TestMeta testMeta;
-    private String  active_test;
+public class GetSpaceXMissionRequestPojo implements APIInterface.RequestPojo{
+    private String query;
+    private Variables variables;
 
     @Data
     @Getter
@@ -30,10 +27,7 @@ public class GetAgeRequestPojo implements APIInterface.RequestPojo {
     @NoArgsConstructor
     @EqualsAndHashCode
     @ToString
-    public static class TestMeta{
-        private Map<String,String> tcDescription;
-        private String testDescription;
-        private int expectedAge;
-        private int expectedStatusCode;
+    public static class Variables{
+        private int limit;
     }
 }

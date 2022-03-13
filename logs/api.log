@@ -214,3 +214,1714 @@ Query Params: {name=john}
 [INFO ] 2022-01-19 19:42:28.056 [TestNG-test=Test Suite-1] ReportHelper -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200 ---- true
 [INFO ] 2022-01-19 19:42:28.057 [TestNG-test=Test Suite-1] ReportHelper -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john ---- true
 [INFO ] 2022-01-19 19:42:28.064 [TestNG-test=Test Suite-1] ReportHelper -  Age Validation in response<br><b>Actual : </b>58<br><b>Expected : </b>57 ---- false
+[INFO ] 2022-03-12 13:32:04.539 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 13:32:04.921 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 13:32:04.921 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 13:32:04.921 [main] ExtentManager - Response time consumed is = 2767
+[INFO ] 2022-03-12 13:32:04.921 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:02:04 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=57476
+X-Rate-Limit-Remaining=999
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 13:32:04.937 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 13:32:04.937 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 13:32:04.937 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 13:32:06.114 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 13:32:06.428 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 13:32:06.428 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 13:32:06.428 [main] ExtentManager - Response time consumed is = 1413
+[INFO ] 2022-03-12 13:32:06.428 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:02:05 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=57474
+X-Rate-Limit-Remaining=998
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 13:32:06.428 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 13:32:06.428 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 13:32:06.428 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 13:32:07.543 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_5" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 13:32:07.858 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 13:32:07.858 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 13:32:07.858 [main] ExtentManager - Response time consumed is = 1415
+[INFO ] 2022-03-12 13:32:07.858 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:02:07 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=57473
+X-Rate-Limit-Remaining=997
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 13:32:07.858 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 13:32:07.858 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 13:35:48.228 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 13:35:48.228 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 13:37:46.714 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 13:37:46.714 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 13:44:39.753 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 13:44:39.753 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 13:44:39.753 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 13:44:39.753 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 13:44:39.753 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 13:44:39.753 [main] ExtentManager - Response time consumed is = 1982
+[INFO ] 2022-03-12 13:44:39.753 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:14:38 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=56721
+X-Rate-Limit-Remaining=996
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 13:44:39.753 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 13:44:39.753 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 13:44:39.753 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 13:44:39.753 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 13:44:41.235 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 13:44:41.251 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 13:44:41.251 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 13:44:41.251 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 13:44:41.251 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 13:44:41.251 [main] ExtentManager - Response time consumed is = 1366
+[INFO ] 2022-03-12 13:44:41.251 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:14:40 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=56719
+X-Rate-Limit-Remaining=995
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 13:44:41.251 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 13:44:41.251 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 13:44:41.251 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 13:44:41.251 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 13:44:42.476 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 13:44:42.476 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 13:44:42.476 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_5" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 13:44:42.476 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 13:44:42.476 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 13:44:42.476 [main] ExtentManager - Response time consumed is = 1177
+[INFO ] 2022-03-12 13:44:42.476 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:14:41 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=56718
+X-Rate-Limit-Remaining=994
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 13:44:42.476 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 13:44:42.476 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 13:44:42.476 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 13:44:42.476 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 13:55:34.824 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 13:55:34.828 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 13:55:34.829 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 13:55:34.829 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 13:55:34.829 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 13:55:34.829 [main] ExtentManager - Response time consumed is = 1800
+[INFO ] 2022-03-12 13:55:34.829 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:25:33 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=56066
+X-Rate-Limit-Remaining=993
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 13:55:34.829 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 13:55:34.829 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 13:55:34.829 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 13:55:34.829 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 13:55:36.167 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 13:55:36.168 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 13:55:36.168 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 13:55:36.168 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 13:55:36.168 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 13:55:36.168 [main] ExtentManager - Response time consumed is = 1230
+[INFO ] 2022-03-12 13:55:36.168 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:25:35 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=56065
+X-Rate-Limit-Remaining=992
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 13:55:36.168 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 13:55:36.168 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 13:55:36.168 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 13:55:36.169 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 13:55:37.382 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 13:55:37.382 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 13:55:37.383 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_5" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 13:55:37.383 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 13:55:37.383 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 13:55:37.383 [main] ExtentManager - Response time consumed is = 1162
+[INFO ] 2022-03-12 13:55:37.383 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:25:36 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=56063
+X-Rate-Limit-Remaining=991
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 13:55:37.383 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 13:55:37.383 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 13:55:37.383 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 13:55:37.383 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 14:09:51.831 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 14:09:51.835 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 14:09:51.835 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 14:09:51.835 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 14:09:51.835 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 14:09:51.836 [main] ExtentManager - Response time consumed is = 1877
+[INFO ] 2022-03-12 14:09:51.836 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:39:50 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=55209
+X-Rate-Limit-Remaining=990
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 14:09:51.836 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 14:09:51.836 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 14:09:51.836 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 14:09:51.836 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 14:09:53.325 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 14:09:53.326 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 14:09:53.326 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 14:09:53.326 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 14:09:53.326 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 14:09:53.326 [main] ExtentManager - Response time consumed is = 1363
+[INFO ] 2022-03-12 14:09:53.326 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:39:52 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=55207
+X-Rate-Limit-Remaining=989
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 14:09:53.326 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 14:09:53.326 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 14:09:53.327 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 14:09:53.327 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 14:09:54.748 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 14:09:54.748 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 14:09:54.748 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_5" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 14:09:54.748 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 14:09:54.748 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 14:09:54.749 [main] ExtentManager - Response time consumed is = 1369
+[INFO ] 2022-03-12 14:09:54.749 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:39:54 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=55206
+X-Rate-Limit-Remaining=988
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 14:09:54.749 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 14:09:54.749 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 14:09:54.749 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 14:09:54.749 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 14:27:49.444 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 14:27:49.449 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 14:27:49.449 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 14:27:49.449 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 14:27:49.449 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 14:27:49.449 [main] ExtentManager - Response time consumed is = 1901
+[INFO ] 2022-03-12 14:27:49.449 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:57:48 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=54132
+X-Rate-Limit-Remaining=987
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 14:27:49.450 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 14:27:49.450 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 14:27:49.450 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 14:27:49.450 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 14:27:50.737 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 14:27:50.737 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 14:27:50.737 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 14:27:50.737 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 14:27:50.737 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 14:27:50.738 [main] ExtentManager - Response time consumed is = 1173
+[INFO ] 2022-03-12 14:27:50.738 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:57:50 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=54130
+X-Rate-Limit-Remaining=986
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 14:27:50.738 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 14:27:50.738 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 14:27:50.738 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 14:27:50.738 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 14:27:52.171 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 14:27:52.171 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 14:27:52.171 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_5" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 14:27:52.172 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 14:27:52.172 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 14:27:52.172 [main] ExtentManager - Response time consumed is = 1381
+[INFO ] 2022-03-12 14:27:52.172 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 08:57:51 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=54129
+X-Rate-Limit-Remaining=985
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 14:27:52.172 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 14:27:52.172 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 14:27:52.172 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 14:27:52.172 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 14:30:20.273 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 14:30:20.276 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 14:30:20.276 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 14:30:20.277 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 14:30:20.277 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 14:30:20.277 [main] ExtentManager - Response time consumed is = 1797
+[INFO ] 2022-03-12 14:30:20.277 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 09:00:19 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=53981
+X-Rate-Limit-Remaining=984
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 14:30:20.277 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 14:30:20.277 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 14:30:20.277 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 14:30:20.277 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 14:30:21.549 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 14:30:21.550 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 14:30:21.550 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 14:30:21.550 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 14:30:21.550 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 14:30:21.550 [main] ExtentManager - Response time consumed is = 1138
+[INFO ] 2022-03-12 14:30:21.550 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 09:00:20 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=53979
+X-Rate-Limit-Remaining=983
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 14:30:21.550 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 14:30:21.550 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 14:30:21.550 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 14:30:21.550 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 14:30:22.954 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 14:30:22.954 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 14:30:22.955 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_5" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 14:30:22.955 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 14:30:22.955 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 14:30:22.955 [main] ExtentManager - Response time consumed is = 1358
+[INFO ] 2022-03-12 14:30:22.955 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 09:00:22 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=53978
+X-Rate-Limit-Remaining=982
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 14:30:22.955 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 14:30:22.955 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 14:30:22.955 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 14:30:22.955 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 16:34:36.948 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 16:34:36.964 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 16:34:36.964 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 16:34:36.964 [main] ExtentManager - com.test.exceptions.AgePredictorException: Error in executing get age api response
+[INFO ] 2022-03-12 16:34:37.089 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 16:34:37.089 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 16:34:37.089 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 16:34:37.089 [main] ExtentManager - com.test.exceptions.AgePredictorException: Error in executing get age api response
+[INFO ] 2022-03-12 16:34:37.139 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 16:34:37.139 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 16:34:37.139 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 16:34:37.139 [main] ExtentManager - com.test.exceptions.AgePredictorException: Error in executing get age api response
+[INFO ] 2022-03-12 16:41:07.824 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 16:41:07.839 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 16:41:07.839 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 16:41:07.839 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 16:41:07.839 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 16:41:07.839 [main] ExtentManager - Response time consumed is = 2493
+[INFO ] 2022-03-12 16:41:07.839 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 11:11:06 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=46133
+X-Rate-Limit-Remaining=999
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 16:41:07.839 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 16:41:07.839 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 16:41:07.839 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 16:41:07.839 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 16:41:09.496 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 16:41:09.496 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 16:41:09.496 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 16:41:09.496 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 16:41:09.496 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 16:41:09.496 [main] ExtentManager - Response time consumed is = 1532
+[INFO ] 2022-03-12 16:41:09.496 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 11:11:08 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=46131
+X-Rate-Limit-Remaining=998
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 16:41:09.496 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 16:41:09.496 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 16:41:09.496 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 16:41:09.496 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 16:41:11.143 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 16:41:11.143 [main] ExtentManager - <table class='markup-table table '><tr><td>null</td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 16:41:11.143 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_5" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 16:41:11.143 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 16:41:11.143 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 16:41:11.143 [main] ExtentManager - Response time consumed is = 1600
+[INFO ] 2022-03-12 16:41:11.143 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 11:11:10 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=46130
+X-Rate-Limit-Remaining=997
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 16:41:11.143 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 16:41:11.143 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 16:41:11.143 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 16:41:11.143 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 17:05:18.937 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:05:18.937 [main] ExtentManager - <table class='markup-table table '></table>
+[INFO ] 2022-03-12 17:05:18.937 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:05:18.937 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 17:05:18.937 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:05:18.937 [main] ExtentManager - Response time consumed is = 2538
+[INFO ] 2022-03-12 17:05:18.937 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 11:35:17 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=44682
+X-Rate-Limit-Remaining=994
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 17:05:18.937 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:05:18.937 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 17:05:18.937 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 17:05:18.937 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 17:05:20.718 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:05:20.718 [main] ExtentManager - <table class='markup-table table '></table>
+[INFO ] 2022-03-12 17:05:20.718 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:05:20.718 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 17:05:20.718 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:05:20.718 [main] ExtentManager - Response time consumed is = 1657
+[INFO ] 2022-03-12 17:05:20.718 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 11:35:20 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=44680
+X-Rate-Limit-Remaining=993
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 17:05:20.718 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:05:20.718 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 17:05:20.718 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 17:05:20.718 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 17:05:22.647 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:05:22.647 [main] ExtentManager - <table class='markup-table table '></table>
+[INFO ] 2022-03-12 17:05:22.647 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_5" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:05:22.647 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 17:05:22.647 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:05:22.647 [main] ExtentManager - Response time consumed is = 1882
+[INFO ] 2022-03-12 17:05:22.647 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 11:35:22 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=44678
+X-Rate-Limit-Remaining=992
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 17:05:22.647 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:05:22.647 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 17:05:22.647 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 17:05:22.647 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 17:11:40.052 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:11:40.052 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:11:40.052 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 17:11:40.052 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:11:40.052 [main] ExtentManager - Response time consumed is = 2647
+[INFO ] 2022-03-12 17:11:40.052 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 11:41:38 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=44301
+X-Rate-Limit-Remaining=991
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 17:11:40.052 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:11:40.068 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 17:11:40.068 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 17:11:40.068 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 17:11:41.849 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:11:41.849 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:11:41.849 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 17:11:41.849 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:11:41.849 [main] ExtentManager - Response time consumed is = 1657
+[INFO ] 2022-03-12 17:11:41.849 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 11:41:41 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=44299
+X-Rate-Limit-Remaining=990
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 17:11:41.849 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:11:41.849 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 17:11:41.849 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 17:11:41.849 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 17:11:43.761 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:11:43.761 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_5" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:11:43.761 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 17:11:43.761 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:11:43.761 [main] ExtentManager - Response time consumed is = 1865
+[INFO ] 2022-03-12 17:11:43.761 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 11:41:43 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=44297
+X-Rate-Limit-Remaining=989
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 17:11:43.761 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:11:43.761 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 17:11:43.761 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 17:11:43.761 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 17:49:08.934 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:49:08.949 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:49:08.949 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 17:49:08.949 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:49:08.949 [main] ExtentManager - Response time consumed is = 2913
+[INFO ] 2022-03-12 17:49:08.949 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:19:07 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=42052
+X-Rate-Limit-Remaining=988
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 17:49:08.949 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:49:08.949 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 17:49:08.949 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 17:49:08.949 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 17:49:10.731 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:49:10.731 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:49:10.731 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 17:49:10.731 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:49:10.731 [main] ExtentManager - Response time consumed is = 1641
+[INFO ] 2022-03-12 17:49:10.731 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:19:10 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=42050
+X-Rate-Limit-Remaining=987
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 17:49:10.731 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:49:10.731 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 17:49:10.731 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 17:49:10.731 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 17:49:12.362 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:49:12.362 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_5" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:49:12.362 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 17:49:12.362 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:49:12.362 [main] ExtentManager - Response time consumed is = 1584
+[INFO ] 2022-03-12 17:49:12.362 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:19:11 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=42048
+X-Rate-Limit-Remaining=986
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 17:49:12.362 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:49:12.362 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 17:49:12.362 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 17:49:12.362 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 17:55:35.621 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:55:35.621 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :himanshu</b></td></tr></table>
+[INFO ] 2022-03-12 17:55:35.621 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:55:35.621 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 17:55:35.621 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:55:35.621 [main] ExtentManager - Response time consumed is = 3001
+[INFO ] 2022-03-12 17:55:35.621 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:25:34 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=41666
+X-Rate-Limit-Remaining=985
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 17:55:35.621 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:55:35.621 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 17:55:35.621 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 17:55:35.621 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 17:55:37.658 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:55:37.658 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :claudio</b></td></tr></table>
+[INFO ] 2022-03-12 17:55:37.658 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:55:37.658 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 17:55:37.658 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:55:37.658 [main] ExtentManager - Response time consumed is = 1897
+[INFO ] 2022-03-12 17:55:37.658 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:25:37 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=41663
+X-Rate-Limit-Remaining=984
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 17:55:37.658 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:55:37.658 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 17:55:37.658 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 17:55:37.658 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 17:55:39.252 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:55:39.252 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :john</b></td></tr></table>
+[INFO ] 2022-03-12 17:55:39.252 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_5" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:55:39.252 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 17:55:39.252 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:55:39.252 [main] ExtentManager - Response time consumed is = 1547
+[INFO ] 2022-03-12 17:55:39.252 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:25:38 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=41661
+X-Rate-Limit-Remaining=983
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 17:55:39.252 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:55:39.268 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 17:55:39.268 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 17:55:39.268 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 17:57:40.309 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:57:40.309 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :himanshu</b></td></tr></table>
+[INFO ] 2022-03-12 17:57:40.309 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:57:40.309 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 17:57:40.309 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:57:40.309 [main] ExtentManager - Response time consumed is = 3100
+[INFO ] 2022-03-12 17:57:40.309 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:27:39 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=41541
+X-Rate-Limit-Remaining=982
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 17:57:40.309 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:57:40.309 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 17:57:40.309 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 17:57:40.309 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 17:57:42.138 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:57:42.138 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :claudio</b></td></tr></table>
+[INFO ] 2022-03-12 17:57:42.138 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:57:42.138 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 17:57:42.138 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:57:42.138 [main] ExtentManager - Response time consumed is = 1688
+[INFO ] 2022-03-12 17:57:42.138 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:27:41 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=41538
+X-Rate-Limit-Remaining=981
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 17:57:42.138 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:57:42.138 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 17:57:42.138 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 17:57:42.138 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 17:57:43.723 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 17:57:43.723 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :john</b></td></tr></table>
+[INFO ] 2022-03-12 17:57:43.723 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: TC_5" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 17:57:43.738 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 17:57:43.738 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 17:57:43.738 [main] ExtentManager - Response time consumed is = 1554
+[INFO ] 2022-03-12 17:57:43.738 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:27:43 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=41537
+X-Rate-Limit-Remaining=980
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 17:57:43.738 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 17:57:43.738 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 17:57:43.738 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 17:57:43.738 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 18:04:49.992 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:04:49.992 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :himanshu</b></td></tr></table>
+[INFO ] 2022-03-12 18:04:49.992 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: JIRA_1" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:04:49.992 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 18:04:49.992 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:04:49.992 [main] ExtentManager - Response time consumed is = 2897
+[INFO ] 2022-03-12 18:04:49.992 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:34:48 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=41111
+X-Rate-Limit-Remaining=979
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 18:04:49.992 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:04:49.992 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 18:04:49.992 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 18:04:49.992 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 18:04:51.602 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:04:51.602 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :claudio</b></td></tr></table>
+[INFO ] 2022-03-12 18:04:51.602 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: JIRA_2" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:04:51.602 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 18:04:51.602 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:04:51.602 [main] ExtentManager - Response time consumed is = 1485
+[INFO ] 2022-03-12 18:04:51.602 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:34:51 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=41109
+X-Rate-Limit-Remaining=978
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 18:04:51.602 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:04:51.602 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 18:04:51.602 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 18:04:51.602 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 18:04:53.139 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:04:53.139 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :john</b></td></tr></table>
+[INFO ] 2022-03-12 18:04:53.139 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "uniqueTrackingId: JIRA_4" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:04:53.139 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 18:04:53.139 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:04:53.139 [main] ExtentManager - Response time consumed is = 1490
+[INFO ] 2022-03-12 18:04:53.139 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:34:52 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=41107
+X-Rate-Limit-Remaining=977
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 18:04:53.139 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:04:53.139 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 18:04:53.139 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 18:04:53.139 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 18:09:35.847 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:09:35.847 [main] ExtentManager - <table class='markup-table table '><tr><td><b>JIRA_1</b></td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 18:09:35.847 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:09:35.847 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 18:09:35.847 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:09:35.847 [main] ExtentManager - Response time consumed is = 2554
+[INFO ] 2022-03-12 18:09:35.847 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:39:34 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40825
+X-Rate-Limit-Remaining=976
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 18:09:35.847 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:09:35.847 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 18:09:35.847 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 18:09:35.847 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 18:09:37.597 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:09:37.597 [main] ExtentManager - <table class='markup-table table '><tr><td><b>JIRA_2</b></td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 18:09:37.597 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:09:37.597 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 18:09:37.597 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:09:37.597 [main] ExtentManager - Response time consumed is = 1641
+[INFO ] 2022-03-12 18:09:37.597 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:39:36 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40823
+X-Rate-Limit-Remaining=975
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 18:09:37.597 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:09:37.597 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 18:09:37.597 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 18:09:37.597 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 18:09:39.541 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:09:39.541 [main] ExtentManager - <table class='markup-table table '><tr><td><b>JIRA_4</b></td></tr><tr><td>null</td></tr></table>
+[INFO ] 2022-03-12 18:09:39.541 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:09:39.541 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 18:09:39.541 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:09:39.541 [main] ExtentManager - Response time consumed is = 1913
+[INFO ] 2022-03-12 18:09:39.541 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:39:38 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40821
+X-Rate-Limit-Remaining=974
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 18:09:39.541 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:09:39.557 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 18:09:39.557 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 18:09:39.557 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 18:10:49.726 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:10:49.726 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :himanshu</b></td></tr></table>
+[INFO ] 2022-03-12 18:10:49.726 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:10:49.726 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 18:10:49.726 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:10:49.726 [main] ExtentManager - Response time consumed is = 2960
+[INFO ] 2022-03-12 18:10:49.726 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:40:48 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40751
+X-Rate-Limit-Remaining=973
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 18:10:49.726 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:10:49.726 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 18:10:49.726 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 18:10:49.726 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 18:10:51.523 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:10:51.523 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :claudio</b></td></tr></table>
+[INFO ] 2022-03-12 18:10:51.523 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:10:51.523 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 18:10:51.523 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:10:51.523 [main] ExtentManager - Response time consumed is = 1672
+[INFO ] 2022-03-12 18:10:51.523 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:40:50 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40749
+X-Rate-Limit-Remaining=972
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 18:10:51.523 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:10:51.523 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 18:10:51.523 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 18:10:51.523 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 18:10:53.864 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:10:53.864 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :john</b></td></tr></table>
+[INFO ] 2022-03-12 18:10:53.864 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:10:53.864 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 18:10:53.864 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:10:53.864 [main] ExtentManager - Response time consumed is = 2294
+[INFO ] 2022-03-12 18:10:53.864 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:40:53 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40747
+X-Rate-Limit-Remaining=971
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 18:10:53.864 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:10:53.864 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 18:10:53.864 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 18:10:53.864 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 18:17:32.266 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:17:32.269 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :himanshu</b></td></tr><tr><td><b>JIRA_1</b></td></tr></table>
+[INFO ] 2022-03-12 18:17:32.270 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:17:32.270 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 18:17:32.270 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:17:32.270 [main] ExtentManager - Response time consumed is = 2460
+[INFO ] 2022-03-12 18:17:32.270 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:47:31 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40349
+X-Rate-Limit-Remaining=970
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 18:17:32.270 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:17:32.270 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 18:17:32.270 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 18:17:32.271 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 18:17:34.147 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:17:34.148 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :claudio</b></td></tr><tr><td><b>JIRA_2</b></td></tr></table>
+[INFO ] 2022-03-12 18:17:34.148 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:17:34.149 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 18:17:34.149 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:17:34.149 [main] ExtentManager - Response time consumed is = 1749
+[INFO ] 2022-03-12 18:17:34.149 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:47:33 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40347
+X-Rate-Limit-Remaining=969
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 18:17:34.149 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:17:34.149 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 18:17:34.149 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 18:17:34.150 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 18:17:35.724 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:17:35.724 [main] ExtentManager - <table class='markup-table table '><tr><td><b>Validate age of name :john</b></td></tr><tr><td><b>JIRA_4</b></td></tr></table>
+[INFO ] 2022-03-12 18:17:35.724 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:17:35.724 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 18:17:35.724 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:17:35.724 [main] ExtentManager - Response time consumed is = 1526
+[INFO ] 2022-03-12 18:17:35.724 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:47:35 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40345
+X-Rate-Limit-Remaining=968
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 18:17:35.724 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:17:35.725 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 18:17:35.725 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 18:17:35.725 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 18:18:46.893 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:18:46.893 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-12 18:18:46.893 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:18:46.893 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 18:18:46.893 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:18:46.893 [main] ExtentManager - Response time consumed is = 2429
+[INFO ] 2022-03-12 18:18:46.893 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:48:45 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40274
+X-Rate-Limit-Remaining=967
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 18:18:46.893 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:18:46.893 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 18:18:46.893 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 18:18:46.893 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 18:18:48.612 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:18:48.612 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-12 18:18:48.612 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:18:48.612 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 18:18:48.612 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:18:48.612 [main] ExtentManager - Response time consumed is = 1610
+[INFO ] 2022-03-12 18:18:48.612 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:48:48 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40272
+X-Rate-Limit-Remaining=966
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 18:18:48.612 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:18:48.612 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 18:18:48.612 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 18:18:48.612 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 18:18:50.305 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:18:50.305 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-12 18:18:50.305 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:18:50.305 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 18:18:50.305 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:18:50.305 [main] ExtentManager - Response time consumed is = 1631
+[INFO ] 2022-03-12 18:18:50.305 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:48:49 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40270
+X-Rate-Limit-Remaining=965
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 18:18:50.305 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:18:50.305 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 18:18:50.305 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 18:18:50.305 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 18:21:12.828 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:21:12.828 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-12 18:21:12.828 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:21:12.828 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 18:21:12.828 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:21:12.828 [main] ExtentManager - Response time consumed is = 3012
+[INFO ] 2022-03-12 18:21:12.828 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:51:11 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40128
+X-Rate-Limit-Remaining=964
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 18:21:12.828 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:21:12.828 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 18:21:12.828 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 18:21:12.828 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 18:21:14.615 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:21:14.615 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-12 18:21:14.615 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:21:14.615 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 18:21:14.615 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:21:14.615 [main] ExtentManager - Response time consumed is = 1647
+[INFO ] 2022-03-12 18:21:14.615 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:51:13 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40126
+X-Rate-Limit-Remaining=963
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 18:21:14.615 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:21:14.615 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 18:21:14.615 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 18:21:14.615 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 18:21:16.085 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 18:21:16.100 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-12 18:21:16.100 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 18:21:16.100 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 18:21:16.100 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 18:21:16.100 [main] ExtentManager - Response time consumed is = 1422
+[INFO ] 2022-03-12 18:21:16.100 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 12:51:15 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=40124
+X-Rate-Limit-Remaining=962
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 18:21:16.100 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 18:21:16.100 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 18:21:16.100 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 18:21:16.100 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 19:58:44.947 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 19:58:44.962 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-12 19:58:44.962 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 19:58:44.962 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 19:58:45.134 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 19:58:45.134 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-12 19:58:45.134 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 19:58:45.134 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 19:58:45.181 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 19:58:45.181 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-12 19:58:45.181 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 19:58:45.181 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:04:10.532 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:04:10.548 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-12 20:04:10.548 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:04:10.548 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:04:10.766 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:04:10.766 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-12 20:04:10.766 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:04:10.766 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:04:10.829 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:04:10.829 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-12 20:04:10.829 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:04:10.829 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:07:36.595 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:07:36.595 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-12 20:07:36.595 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:07:36.595 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:07:36.783 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:07:36.783 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-12 20:07:36.783 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:07:36.783 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:07:36.845 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:07:36.845 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-12 20:07:36.845 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:07:36.845 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:08:27.255 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:08:27.270 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-12 20:08:27.270 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:08:27.270 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:08:27.458 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:08:27.458 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-12 20:08:27.458 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:08:27.458 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:08:27.520 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:08:27.520 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-12 20:08:27.520 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:08:27.520 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:10:29.964 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:10:29.980 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-12 20:10:29.980 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:10:29.980 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:10:30.214 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:10:30.214 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-12 20:10:30.214 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:10:30.214 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:10:30.277 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:10:30.277 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-12 20:10:30.277 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:10:30.277 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:12:54.255 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:12:54.255 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-12 20:12:54.255 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:12:54.255 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:12:54.490 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:12:54.490 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-12 20:12:54.490 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:12:54.490 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:12:54.552 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:12:54.552 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-12 20:12:54.552 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:12:54.552 [main] ExtentManager - java.lang.NoSuchMethodError: 'org.hamcrest.Matcher org.hamcrest.core.IsInstanceOf.any(java.lang.Class)'
+[INFO ] 2022-03-12 20:20:49.349 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:20:49.349 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-12 20:20:49.349 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 20:20:49.349 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 20:20:49.349 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 20:20:49.349 [main] ExtentManager - Response time consumed is = 4465
+[INFO ] 2022-03-12 20:20:49.349 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 14:50:47 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=32952
+X-Rate-Limit-Remaining=961
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 20:20:49.349 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 20:20:49.349 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 20:20:49.349 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 20:20:49.349 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 20:20:51.986 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:20:51.986 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-12 20:20:51.986 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 20:20:51.986 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 20:20:51.986 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 20:20:51.986 [main] ExtentManager - Response time consumed is = 2403
+[INFO ] 2022-03-12 20:20:51.986 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 14:50:51 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=32948
+X-Rate-Limit-Remaining=960
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 20:20:51.986 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 20:20:51.986 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 20:20:51.986 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 20:20:51.986 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 20:20:54.721 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:20:54.721 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-12 20:20:54.721 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 20:20:54.721 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 20:20:54.721 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 20:20:54.721 [main] ExtentManager - Response time consumed is = 2610
+[INFO ] 2022-03-12 20:20:54.721 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 14:50:54 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=32946
+X-Rate-Limit-Remaining=959
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 20:20:54.721 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 20:20:54.721 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 20:20:54.721 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:20:54.721 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 20:22:05.337 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:22:05.353 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-12 20:22:05.353 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 20:22:05.353 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 20:22:05.353 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 20:22:05.353 [main] ExtentManager - Response time consumed is = 3017
+[INFO ] 2022-03-12 20:22:05.353 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 14:52:04 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=32875
+X-Rate-Limit-Remaining=958
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 20:22:05.353 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 20:22:05.353 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 20:22:05.353 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 20:22:05.353 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 20:22:07.172 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:22:07.172 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-12 20:22:07.172 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 20:22:07.172 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 20:22:07.172 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 20:22:07.172 [main] ExtentManager - Response time consumed is = 1725
+[INFO ] 2022-03-12 20:22:07.172 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 14:52:06 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=32873
+X-Rate-Limit-Remaining=957
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 20:22:07.172 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 20:22:07.172 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 20:22:07.172 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 20:22:07.172 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 20:22:08.766 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:22:08.766 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-12 20:22:08.766 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 20:22:08.766 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 20:22:08.766 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 20:22:08.766 [main] ExtentManager - Response time consumed is = 1563
+[INFO ] 2022-03-12 20:22:08.766 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 14:52:08 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=32872
+X-Rate-Limit-Remaining=956
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 20:22:08.766 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 20:22:08.766 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 20:22:08.766 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:22:08.766 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-12 20:32:57.039 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:32:57.039 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-12 20:32:57.039 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:32:57.039 [main] ExtentManager - java.lang.ExceptionInInitializerError
+[INFO ] 2022-03-12 20:32:57.170 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:32:57.170 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-12 20:32:57.170 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:32:57.170 [main] ExtentManager - java.lang.NoClassDefFoundError: Could not initialize class com.test.global.LocalConfig
+[INFO ] 2022-03-12 20:32:57.201 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:32:57.201 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-12 20:32:57.201 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:32:57.201 [main] ExtentManager - java.lang.NoClassDefFoundError: Could not initialize class com.test.global.LocalConfig
+[INFO ] 2022-03-12 20:34:28.611 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:34:28.611 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-12 20:34:28.611 [main] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 20:34:28.611 [main] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-12 20:34:28.611 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 20:34:28.611 [main] ExtentManager - Response time consumed is = 2850
+[INFO ] 2022-03-12 20:34:28.611 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 15:04:27 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=32133
+X-Rate-Limit-Remaining=955
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-12 20:34:28.611 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 20:34:28.611 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-12 20:34:28.611 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-12 20:34:28.611 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 20:34:30.378 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:34:30.378 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-12 20:34:30.378 [main] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 20:34:30.378 [main] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-12 20:34:30.378 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 20:34:30.378 [main] ExtentManager - Response time consumed is = 1641
+[INFO ] 2022-03-12 20:34:30.378 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 15:04:30 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=32130
+X-Rate-Limit-Remaining=954
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-12 20:34:30.378 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 20:34:30.378 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-12 20:34:30.378 [main] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-12 20:34:30.378 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-12 20:34:31.972 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-12 20:34:31.972 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-12 20:34:31.972 [main] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-12 20:34:31.972 [main] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-12 20:34:31.972 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-12 20:34:31.972 [main] ExtentManager - Response time consumed is = 1548
+[INFO ] 2022-03-12 20:34:31.972 [main] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sat, 12 Mar 2022 15:04:31 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=32128
+X-Rate-Limit-Remaining=953
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-12 20:34:31.972 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-12 20:34:31.972 [main] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-12 20:34:31.972 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-12 20:34:31.972 [main] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-13 14:06:35.498 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-13 14:06:35.502 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate spaceX company details</td></tr><tr><td>JIRA_10</td></tr></table>
+[INFO ] 2022-03-13 14:06:35.503 [main] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-13 14:06:35.503 [main] ExtentManager - java.lang.ExceptionInInitializerError
+[INFO ] 2022-03-13 14:07:43.741 [main] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-13 14:07:43.746 [main] ExtentManager - <table class='markup-table table '><tr><td>Validate spaceX company details</td></tr><tr><td>JIRA_10</td></tr></table>
+[INFO ] 2022-03-13 14:07:43.746 [main] ExtentManager - Failed to generate CURL command for HTTP request
+[INFO ] 2022-03-13 14:07:43.746 [main] ExtentManager - Response is {"data":{"company":{"name":"SpaceX","ceo":"Elon Musk","coo":"Gwynne Shotwell"}}}
+
+[INFO ] 2022-03-13 14:07:43.746 [main] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-13 14:07:43.746 [main] ExtentManager - Response time consumed is = 1950
+[INFO ] 2022-03-13 14:07:43.746 [main] ExtentManager - Response Headers are Server=Cowboy
+Connection=keep-alive
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+Content-Type=application/json; charset=utf-8
+Content-Length=81
+Etag=W/"51-qOGQQ4YIRDPgoKLMThx1OFd7v7c"
+Date=Sun, 13 Mar 2022 08:37:42 GMT
+Via=1.1 vegur
+[INFO ] 2022-03-13 14:07:43.746 [main] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-13 14:07:43.746 [main] ExtentManager - Company Name Validation in response<br><b>Actual : </b>SpaceX<br><b>Expected : </b>SpaceX
+[INFO ] 2022-03-13 14:07:43.747 [main] ExtentManager - Company CEO Validation in response<br><b>Actual : </b>Elon Musk<br><b>Expected : </b>Elon Musk
+[INFO ] 2022-03-13 14:07:43.747 [main] ExtentManager - Company COO Validation in response<br><b>Actual : </b>Gwynne Shotwell<br><b>Expected : </b>Gwynne Shotwell
+[INFO ] 2022-03-13 14:07:43.747 [main] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-13 14:24:08.487 [TestNG-test=Test Suite-1] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-13 14:24:08.496 [TestNG-test=Test Suite-1] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-13 14:24:08.497 [TestNG-test=Test Suite-1] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-13 14:24:08.497 [TestNG-test=Test Suite-1] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-13 14:24:08.497 [TestNG-test=Test Suite-1] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-13 14:24:08.497 [TestNG-test=Test Suite-1] ExtentManager - Response time consumed is = 3291
+[INFO ] 2022-03-13 14:24:08.497 [TestNG-test=Test Suite-1] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sun, 13 Mar 2022 08:54:06 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=54354
+X-Rate-Limit-Remaining=999
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-13 14:24:08.497 [TestNG-test=Test Suite-1] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-13 14:24:08.498 [TestNG-test=Test Suite-1] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-13 14:24:08.498 [TestNG-test=Test Suite-1] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-13 14:24:08.498 [TestNG-test=Test Suite-1] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-13 14:24:10.714 [TestNG-test=Test Suite-1] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-13 14:24:10.714 [TestNG-test=Test Suite-1] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-13 14:24:10.714 [TestNG-test=Test Suite-1] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-13 14:24:10.715 [TestNG-test=Test Suite-1] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-13 14:24:10.715 [TestNG-test=Test Suite-1] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-13 14:24:10.716 [TestNG-test=Test Suite-1] ExtentManager - Response time consumed is = 1978
+[INFO ] 2022-03-13 14:24:10.716 [TestNG-test=Test Suite-1] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sun, 13 Mar 2022 08:54:09 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=54351
+X-Rate-Limit-Remaining=998
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-13 14:24:10.716 [TestNG-test=Test Suite-1] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-13 14:24:10.716 [TestNG-test=Test Suite-1] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-13 14:24:10.716 [TestNG-test=Test Suite-1] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-13 14:24:10.716 [TestNG-test=Test Suite-1] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-13 14:24:12.432 [TestNG-test=Test Suite-1] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-13 14:24:12.432 [TestNG-test=Test Suite-1] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-13 14:24:12.432 [TestNG-test=Test Suite-1] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-13 14:24:12.433 [TestNG-test=Test Suite-1] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-13 14:24:12.433 [TestNG-test=Test Suite-1] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-13 14:24:12.433 [TestNG-test=Test Suite-1] ExtentManager - Response time consumed is = 1644
+[INFO ] 2022-03-13 14:24:12.434 [TestNG-test=Test Suite-1] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sun, 13 Mar 2022 08:54:11 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=54349
+X-Rate-Limit-Remaining=997
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-13 14:24:12.434 [TestNG-test=Test Suite-1] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-13 14:24:12.434 [TestNG-test=Test Suite-1] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-13 14:24:12.434 [TestNG-test=Test Suite-1] ExtentManager - -------- Retry = validateGetAgeAPi--------<br>
+[INFO ] 2022-03-13 14:24:14.244 [TestNG-test=Test Suite-1] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-13 14:24:14.244 [TestNG-test=Test Suite-1] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-13 14:24:14.244 [TestNG-test=Test Suite-1] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-13 14:24:14.244 [TestNG-test=Test Suite-1] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-13 14:24:14.244 [TestNG-test=Test Suite-1] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-13 14:24:14.245 [TestNG-test=Test Suite-1] ExtentManager - Response time consumed is = 1679
+[INFO ] 2022-03-13 14:24:14.245 [TestNG-test=Test Suite-1] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sun, 13 Mar 2022 08:54:12 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=54347
+X-Rate-Limit-Remaining=996
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-13 14:24:14.245 [TestNG-test=Test Suite-1] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-13 14:24:14.245 [TestNG-test=Test Suite-1] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-13 14:24:14.246 [TestNG-test=Test Suite-1] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-13 14:24:14.246 [TestNG-test=Test Suite-1] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-13 14:24:16.034 [TestNG-test=Test Suite-1] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-13 14:24:16.035 [TestNG-test=Test Suite-1] ExtentManager - <table class='markup-table table '><tr><td>Validate spaceX company details</td></tr><tr><td>JIRA_10</td></tr></table>
+[INFO ] 2022-03-13 14:24:16.035 [TestNG-test=Test Suite-1] ExtentManager - Failed to generate CURL command for HTTP request
+[INFO ] 2022-03-13 14:24:16.035 [TestNG-test=Test Suite-1] ExtentManager - Response is {"data":{"company":{"name":"SpaceX","ceo":"Elon Musk","coo":"Gwynne Shotwell"}}}
+
+[INFO ] 2022-03-13 14:24:16.035 [TestNG-test=Test Suite-1] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-13 14:24:16.035 [TestNG-test=Test Suite-1] ExtentManager - Response time consumed is = 1573
+[INFO ] 2022-03-13 14:24:16.036 [TestNG-test=Test Suite-1] ExtentManager - Response Headers are Server=Cowboy
+Connection=keep-alive
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+Content-Type=application/json; charset=utf-8
+Content-Length=81
+Etag=W/"51-qOGQQ4YIRDPgoKLMThx1OFd7v7c"
+Date=Sun, 13 Mar 2022 08:54:14 GMT
+Via=1.1 vegur
+[INFO ] 2022-03-13 14:24:16.036 [TestNG-test=Test Suite-1] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-13 14:24:16.036 [TestNG-test=Test Suite-1] ExtentManager - Company Name Validation in response<br><b>Actual : </b>SpaceX<br><b>Expected : </b>SpaceX
+[INFO ] 2022-03-13 14:24:16.036 [TestNG-test=Test Suite-1] ExtentManager - Company CEO Validation in response<br><b>Actual : </b>Elon Musk<br><b>Expected : </b>Elon Musk
+[INFO ] 2022-03-13 14:24:16.037 [TestNG-test=Test Suite-1] ExtentManager - Company COO Validation in response<br><b>Actual : </b>Gwynne Shotwell<br><b>Expected : </b>Gwynne Shotwell
+[INFO ] 2022-03-13 14:24:16.037 [TestNG-test=Test Suite-1] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-13 14:28:29.197 [TestNG-test=Test Suite-1] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-13 14:28:29.213 [TestNG-test=Test Suite-1] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :himanshu</td></tr><tr><td>JIRA_1</td></tr></table>
+[INFO ] 2022-03-13 14:28:29.213 [TestNG-test=Test Suite-1] ExtentManager - curl "https://api.agify.io/?name=himanshu" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-13 14:28:29.213 [TestNG-test=Test Suite-1] ExtentManager - Response is {"name":"himanshu","age":31,"count":1311}
+[INFO ] 2022-03-13 14:28:29.213 [TestNG-test=Test Suite-1] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-13 14:28:29.213 [TestNG-test=Test Suite-1] ExtentManager - Response time consumed is = 2641
+[INFO ] 2022-03-13 14:28:29.213 [TestNG-test=Test Suite-1] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sun, 13 Mar 2022 08:58:26 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=54093
+X-Rate-Limit-Remaining=995
+ETag=W/"29-VqtuV5UOYR09dBzEGgKqDN5eQlc"
+[INFO ] 2022-03-13 14:28:29.213 [TestNG-test=Test Suite-1] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-13 14:28:29.213 [TestNG-test=Test Suite-1] ExtentManager -  Name Validation in response<br><b>Actual : </b>himanshu<br><b>Expected : </b>himanshu
+[INFO ] 2022-03-13 14:28:29.213 [TestNG-test=Test Suite-1] ExtentManager -  Age Validation in response<br><b>Actual : </b>31<br><b>Expected : </b>31
+[INFO ] 2022-03-13 14:28:29.213 [TestNG-test=Test Suite-1] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-13 14:28:31.022 [TestNG-test=Test Suite-1] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-13 14:28:31.022 [TestNG-test=Test Suite-1] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :claudio</td></tr><tr><td>JIRA_2</td></tr></table>
+[INFO ] 2022-03-13 14:28:31.022 [TestNG-test=Test Suite-1] ExtentManager - curl "https://api.agify.io/?name=claudio" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-13 14:28:31.022 [TestNG-test=Test Suite-1] ExtentManager - Response is {"name":"claudio","age":55,"count":62859}
+[INFO ] 2022-03-13 14:28:31.038 [TestNG-test=Test Suite-1] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-13 14:28:31.038 [TestNG-test=Test Suite-1] ExtentManager - Response time consumed is = 1607
+[INFO ] 2022-03-13 14:28:31.038 [TestNG-test=Test Suite-1] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sun, 13 Mar 2022 08:58:29 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=41
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=54090
+X-Rate-Limit-Remaining=994
+ETag=W/"29-lmsVW2GNH5zK0EgNfrdAqTKv3wM"
+[INFO ] 2022-03-13 14:28:31.038 [TestNG-test=Test Suite-1] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-13 14:28:31.038 [TestNG-test=Test Suite-1] ExtentManager -  Name Validation in response<br><b>Actual : </b>claudio<br><b>Expected : </b>claudio
+[INFO ] 2022-03-13 14:28:31.038 [TestNG-test=Test Suite-1] ExtentManager -  Age Validation in response<br><b>Actual : </b>55<br><b>Expected : </b>55
+[INFO ] 2022-03-13 14:28:31.038 [TestNG-test=Test Suite-1] ExtentManager - validateGetAgeAPi = [Pass]<br>
+[INFO ] 2022-03-13 14:28:32.632 [TestNG-test=Test Suite-1] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-13 14:28:32.632 [TestNG-test=Test Suite-1] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-13 14:28:32.632 [TestNG-test=Test Suite-1] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-13 14:28:32.632 [TestNG-test=Test Suite-1] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-13 14:28:32.632 [TestNG-test=Test Suite-1] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-13 14:28:32.632 [TestNG-test=Test Suite-1] ExtentManager - Response time consumed is = 1532
+[INFO ] 2022-03-13 14:28:32.632 [TestNG-test=Test Suite-1] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sun, 13 Mar 2022 08:58:31 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=54089
+X-Rate-Limit-Remaining=993
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-13 14:28:32.632 [TestNG-test=Test Suite-1] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-13 14:28:32.632 [TestNG-test=Test Suite-1] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-13 14:28:32.632 [TestNG-test=Test Suite-1] ExtentManager - -------- Retry = validateGetAgeAPi--------<br>
+[INFO ] 2022-03-13 14:28:34.523 [TestNG-test=Test Suite-1] ExtentManager - ************validateGetAgeAPi************
+[INFO ] 2022-03-13 14:28:34.523 [TestNG-test=Test Suite-1] ExtentManager - <table class='markup-table table '><tr><td>Validate age of name :john</td></tr><tr><td>JIRA_4</td></tr></table>
+[INFO ] 2022-03-13 14:28:34.523 [TestNG-test=Test Suite-1] ExtentManager - curl "https://api.agify.io/?name=john" -H "Content-Type: application/json; charset=UTF-8" -H "Accept: */*" -H "Host: api.agify.io" -H "Connection: Keep-Alive" -H "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)" --compressed --insecure --verbose
+[INFO ] 2022-03-13 14:28:34.523 [TestNG-test=Test Suite-1] ExtentManager - Response is {"name":"john","age":58,"count":207250}
+[INFO ] 2022-03-13 14:28:34.523 [TestNG-test=Test Suite-1] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-13 14:28:34.523 [TestNG-test=Test Suite-1] ExtentManager - Response time consumed is = 1782
+[INFO ] 2022-03-13 14:28:34.523 [TestNG-test=Test Suite-1] ExtentManager - Response Headers are Server=nginx/1.16.1
+Date=Sun, 13 Mar 2022 08:58:33 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=39
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET
+Access-Control-Allow-Headers=Content-Type, X-Genderize-Source
+X-Rate-Limit-Limit=1000
+X-Rate-Reset=54087
+X-Rate-Limit-Remaining=992
+ETag=W/"27-sXZRTdk7fsgW0Paw3WQz0ANXO48"
+[INFO ] 2022-03-13 14:28:34.523 [TestNG-test=Test Suite-1] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-13 14:28:34.523 [TestNG-test=Test Suite-1] ExtentManager -  Name Validation in response<br><b>Actual : </b>john<br><b>Expected : </b>john
+[INFO ] 2022-03-13 14:28:34.523 [TestNG-test=Test Suite-1] ExtentManager - validateGetAgeAPi = [Fail]<br>
+[INFO ] 2022-03-13 14:28:34.523 [TestNG-test=Test Suite-1] ExtentManager - java.lang.AssertionError:  Age Validation in response expected [57] but found [58]
+[INFO ] 2022-03-13 14:28:36.128 [TestNG-test=Test Suite-1] ExtentManager - ************validateSpaceXDetailsAPi************
+[INFO ] 2022-03-13 14:28:36.128 [TestNG-test=Test Suite-1] ExtentManager - <table class='markup-table table '><tr><td>Validate spaceX company details</td></tr><tr><td>JIRA_10</td></tr></table>
+[INFO ] 2022-03-13 14:28:36.128 [TestNG-test=Test Suite-1] ExtentManager - Failed to generate CURL command for HTTP request
+[INFO ] 2022-03-13 14:28:36.128 [TestNG-test=Test Suite-1] ExtentManager - Response is {"data":{"company":{"name":"SpaceX","ceo":"Elon Musk","coo":"Gwynne Shotwell"}}}
+
+[INFO ] 2022-03-13 14:28:36.128 [TestNG-test=Test Suite-1] ExtentManager - Response Status Code = 200
+[INFO ] 2022-03-13 14:28:36.128 [TestNG-test=Test Suite-1] ExtentManager - Response time consumed is = 1370
+[INFO ] 2022-03-13 14:28:36.128 [TestNG-test=Test Suite-1] ExtentManager - Response Headers are Server=Cowboy
+Connection=keep-alive
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+Content-Type=application/json; charset=utf-8
+Content-Length=81
+Etag=W/"51-qOGQQ4YIRDPgoKLMThx1OFd7v7c"
+Date=Sun, 13 Mar 2022 08:58:34 GMT
+Via=1.1 vegur
+[INFO ] 2022-03-13 14:28:36.128 [TestNG-test=Test Suite-1] ExtentManager -  HTTP Status code validation<br><b>Actual : </b>200<br><b>Expected : </b>200
+[INFO ] 2022-03-13 14:28:36.128 [TestNG-test=Test Suite-1] ExtentManager - Company Name Validation in response<br><b>Actual : </b>SpaceX<br><b>Expected : </b>SpaceX
+[INFO ] 2022-03-13 14:28:36.128 [TestNG-test=Test Suite-1] ExtentManager - Company CEO Validation in response<br><b>Actual : </b>Elon Musk<br><b>Expected : </b>Elon Musk
+[INFO ] 2022-03-13 14:28:36.128 [TestNG-test=Test Suite-1] ExtentManager - Company COO Validation in response<br><b>Actual : </b>Gwynne Shotwell<br><b>Expected : </b>Gwynne Shotwell
+[INFO ] 2022-03-13 14:28:36.128 [TestNG-test=Test Suite-1] ExtentManager - validateSpaceXDetailsAPi = [Pass]<br>

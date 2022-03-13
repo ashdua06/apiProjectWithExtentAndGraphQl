@@ -1,6 +1,7 @@
 package com.test.model.request;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.test.model.response.GetSpaceXDetailsResponsePojo;
 import lombok.*;
 import com.test.apiRequestBuilder.APIInterface;
 
@@ -15,11 +16,12 @@ import java.util.Map;
 @NoArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class GetAgeRequestPojo implements APIInterface.RequestPojo {
-    private String name;
+
+public class GetSpaceXDetailsRequestPojo  implements APIInterface.RequestPojo{
+    private String query;
+    private TestMeta testMeta;
     @JsonProperty("uniqueTrackingId")
     private String jiraId;
-    private TestMeta testMeta;
     private String  active_test;
 
     @Data
@@ -31,9 +33,8 @@ public class GetAgeRequestPojo implements APIInterface.RequestPojo {
     @EqualsAndHashCode
     @ToString
     public static class TestMeta{
-        private Map<String,String> tcDescription;
         private String testDescription;
-        private int expectedAge;
         private int expectedStatusCode;
+        private GetSpaceXDetailsResponsePojo.Company expectedCompanyDetails;
     }
 }

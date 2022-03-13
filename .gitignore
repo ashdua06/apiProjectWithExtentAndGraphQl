@@ -1,9 +1,11 @@
 target/
-#Results/
+Reports
 .idea
+allure-results
 TestApiProject.iml
-#*.log
-#logs/
+*.log
+logs
+logs/api.log
 .DS_Store
 */.DS_Store
 .classpath

@@ -1,0 +1,16 @@
+[
+  {
+    "query":"{company{name ceo coo}}",
+    "testMeta": {
+      "testDescription":"Validate spaceX company details",
+      "expectedStatusCode":200,
+      "expectedCompanyDetails": {
+        "name": "SpaceX",
+        "ceo": "Elon Musk",
+        "coo": "Gwynne Shotwell"
+      }
+    },
+    "uniqueTrackingId": "JIRA_10",
+    "active_test": "true"
+  }
+]
