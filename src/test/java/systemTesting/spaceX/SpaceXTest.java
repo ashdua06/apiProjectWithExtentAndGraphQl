@@ -2,6 +2,7 @@ package systemTesting.spaceX;
 
 import com.test.apiRequestBuilder.agePredictor.AgePredictor;
 import com.test.apiRequestBuilder.spaceX.GetSpaceXDetails;
+import com.test.global.Groups;
 import com.test.model.request.GetAgeRequestPojo;
 import com.test.model.request.GetSpaceXDetailsRequestPojo;
 import com.test.validators.api.AgeValidator;
@@ -27,7 +28,7 @@ public class SpaceXTest extends BaseSetup {
         return data;
     }
 
-    @Test(dataProvider = "spaceXDetailsDataProvider",priority = 0,enabled = true)
+    @Test(dataProvider = "spaceXDetailsDataProvider",groups = {Groups.GRAPHQL,Groups.REGRESSION})
     public void validateSpaceXDetailsAPi(GetSpaceXDetailsRequestPojo getSpaceXDetailsRequestPojo,String tcDescription,String JiraId) {
         GetSpaceXDetails spaceXDetails=new GetSpaceXDetails(getSpaceXDetailsRequestPojo);
         spaceXDetails.createRequestJsonAndExecute();

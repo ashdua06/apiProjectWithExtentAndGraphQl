@@ -7,7 +7,8 @@
       "expectedStatusCode":200
     },
     "uniqueTrackingId": "JIRA_1",
-    "active_test": "true"
+    "active_test": "true",
+    "test_tag": ["smoke","regression"]
   },
   {
     "name": "claudio",
